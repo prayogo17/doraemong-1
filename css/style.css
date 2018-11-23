@@ -126,6 +126,39 @@ table {
     margin-top: 3px;
 }
 
+.dataTables_scrollHeadInner{
+width: auto!important;
+}
+
+.table-striped{
+  margin-left: auto!important;
+  width: 100%!important;
+}
+
+.dataTables_filter {
+  float: none!important;
+  text-align: left!important;
+}
+
+#DataTables_Table_0_wrapper{
+  font-size: 16px!important;
+}
+
+#DataTables_Table_0_filter input{
+  margin-left: 0!important;
+}
+
+#DataTables_Table_0_wrapper[max-width~="491px"] {
+    font-size: 10px!important;
+    font-weight: bold;
+}
+
+#DataTables_Table_0_wrapper[max-width~="300px"] {
+    font-size: 9px!important;
+    font-weight: bold;
+}
+
+
 /**
  * End Of Library Override
  */
@@ -151,7 +184,7 @@ html {
 
 .panel-left {
     flex: 1 1 auto;
-    width: 35%;
+    width: 30%;
     min-height: 200px;
     min-width: 350px;
     white-space: nowrap
@@ -167,7 +200,7 @@ html {
 
 .panel-right {
     flex: 1 1 auto;
-    width: 65%;
+    width: 70%;
     min-height: 200px;
     min-width: 200px
     max-height:250px;
@@ -193,11 +226,15 @@ html {
     border: solid 1px #cbc9c9;
 }
 
-.form>hr {
+hr {
     max-width: 96%;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
+}
+
+.footer {
+    margin-left: 20px;
 }
 
 canvas {
